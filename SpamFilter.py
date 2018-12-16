@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from bag_of_words import text_to_words
-np.set_printoptions(threshold=np.nan)
 
 SPAM = "spam"
 HAM = "ham"
